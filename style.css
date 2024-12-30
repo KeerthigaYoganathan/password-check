@@ -1,8 +1,14 @@
-.password-input-box p{
+.inp-pwd-cndtn{
     color: red;
     display: none;
 }
-.confirm-password-input-box p{
+.conf-pwd-alt{
     color: red;
     display: none;
+}
+.pwd-cndtn-active .inp-pwd-cndtn{
+    display: block;
+}
+.pwd-alt-active .conf-pwd-alt{
+    display: block;
 }
